@@ -1,0 +1,18 @@
+Criar um Novo Projeto React
+- npx create-react-app conversor-de-moeda --use-npm
+
+Navegar até o Diretório do Projeto
+- cd conversor-de-moeda
+
+Resolver Conflitos de Dependências
+- npm install --legacy-peer-deps
+
+Instalar Dependências
+- npm install axios bootstrap
+
+Instalar o Pacote
+- npm install web-vitals
+- npm install axios
+
+Verificar e Corrigir Dependências
+- npm install
