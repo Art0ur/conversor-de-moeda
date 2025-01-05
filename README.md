@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Conversor de Moeda
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição
+Este Conversor de Moeda é a continuação do projeto [ConversorDeMoedaGUI](https://github.com/Art0ur/ConversorDeMoedaGUI/tree/main), originalmente desenvolvido em C#. Ele permite converter valores de Dólar (USD) e Euro (EUR) para Real (BRL). Agora, foi reimplementado em **React** utilizando **Axios** para requisições HTTP e **Bootstrap** para estilização.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Funcionalidades
+- Converter valores de USD para BRL.
+- Converter valores de EUR para BRL.
+- Exibir a taxa de câmbio atual para USD e EUR.
 
-### `npm start`
+## Pré-requisitos
+Certifique-se de ter as seguintes ferramentas instaladas:
+- [Node.js](https://nodejs.org/)
+- [Git](https://git-scm.com/downloads)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Como Clonar e Rodar o Projeto
+1. **Clonar o Repositório**
+   ```bash
+   git clone https://github.com/Art0ur/ConversorDeMoedaGUI.git
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Navegar até o Diretório do Projeto
+2. ```bash
+   cd conversor-de-moeda
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Instalar Dependências
+3. ```bash
+   npm install
 
-### `npm run build`
+## Executar o Projeto
+4. ```bash
+   npm start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tecnologias Utilizadas
+- **React**
+- **Axios**
+- **Bootstrap**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Exemplos de Uso
+- Escolha a moeda que deseja converter.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![image](https://github.com/user-attachments/assets/b9af67a5-9700-45eb-8312-f8e76ca0f62f)
 
-### `npm run eject`
+- Insira o valor em USD ou EUR que deseja converter.
+- Clique no botão correspondente à conversão.
+- O valor convertido será exibido com base na taxa de câmbio atual.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![image](https://github.com/user-attachments/assets/2df082b2-b5e0-4818-8b79-70fc69bd73f2)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+##Contribuições
+- Contribuições são sempre bem-vindas!
+- Sinta-se à vontade para abrir uma issue ou enviar um pull request com melhorias.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contato
+Se tiver dúvidas ou sugestões, entre em contato:
+- Nome: Artur Silva
+- Email: [contact.arsilva@gmail.com](mailto:contact.arsilva@gmail.com)
+- LinkedIn: [Artur Jefferson](https://www.linkedin.com/in/arturjefferson)
